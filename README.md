@@ -5,23 +5,18 @@
 > student id: 6610110327
 
 ## How to Run Testing
-- Linux
-  
+- Linux 
 ``` 
 python3 -m unittest -v tests/<test_file_name.py>
-
 ```
 - OSX
-  
 ``` 
 python -m unittest -v tests/<test_file_name.py>
 ```
 - Windows
-  
 ``` 
 python -m unittest -v tests/<test_file_name.py>
 ```
-
 ``` 
 py -m unittest -v tests/<test_file_name.py>
 ```
@@ -36,11 +31,9 @@ pip install coverage nose2
 ```
 nose2 -v --with-coverage
 ```
-
 ```
 nose2 -v --with-coverage --coverage-report html
 ```
-
 ```
 nose2 -v –with-coverage --coverage <package_name>
 ```
