@@ -2,7 +2,6 @@ from funny_string.funny_string import funnyString
 import unittest
 
 class FunnyStringTest(unittest.TestCase):
-    
     def test_give_bacxz_is_funny(self):
         s = 'acxz'
         is_funnystring = funnyString(s)
